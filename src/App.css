@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Cho trình duyệt hỗ trợ scrollbar-color */
+body {
+  scrollbar-color: #379fc8 #272626;
+}
+
+/* Cho trình duyệt dựa trên WebKit (Chrome, Safari) */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #76cef1, #136d90);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #272626;
+}
