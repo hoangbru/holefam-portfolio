@@ -46,7 +46,7 @@ const Home = () => {
               title={text}
             >
               <a
-                href="/CV_Pham_Viet_Hoang.pdf"
+                href="/[Front_End_Developer]_PHAM_VIET_HOANG.pdf"
                 download="CV-Pham-Viet-Hoang.pdf"
                 className="button button--flex resume"
               >

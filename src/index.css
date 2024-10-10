@@ -187,11 +187,6 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-  /* .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-  } */
-
   .button {
     padding: 1rem 1.75rem;
   }
@@ -218,11 +213,6 @@ img {
   :root {
     --big-font-size: 2.25rem;
   }
-
-  /* .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  } */
 }
 
 /* form-login */

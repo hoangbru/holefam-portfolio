@@ -2,13 +2,15 @@ import "./footer.css";
 
 const Footer = () => {
   const social = [
-    { href: "https://www.facebook.com/tinhlinhxanh/", icon: "bxl-facebook" },
-    { href: "https://www.instagram.com/tinhlinhxanh/", icon: "bxl-instagram" },
-    { href: "https://www.linkedin.com/in/viethoangdev/", icon: "bxl-linkedin" },
-    { href: "https://web.telegram.org/k/@plousdolby", icon: "bxl-telegram" },
-    { href: "https://x.com/tinhlinh_xanh", icon: "bxl-twitter" },
-    { href: "https://discord.gg/T5tzGZ6Uhg", icon: "bxl-discord-alt" },
-    { href: "https://www.figma.com/@hoangbru", icon: "bxl-figma" },
+    { href: "https://www.facebook.com/tinhlinhxanh/", icon: "facebook" },
+    { href: "https://www.instagram.com/tinhlinhxanh/", icon: "instagram" },
+    { href: "https://www.linkedin.com/in/viethoangdev/", icon: "linkedin" },
+    { href: "https://t.me/plousdolby", icon: "telegram" },
+    { href: "https://x.com/tinhlinh_xanh", icon: "twitter" },
+    { href: "https://discord.gg/T5tzGZ6Uhg", icon: "discord-alt" },
+    { href: "https://www.figma.com/@hoangbru", icon: "figma" },
+    { href: "https://open.spotify.com/user/31bv5pxmueupktotevqtnngczgvy", icon: "spotify" },
+    { href: "https://youtu.be/dQw4w9WgXcQ?si=_pGg1TiZQXcpyo78", icon: "youtube" },
   ];
   return (
     <footer className="footer">
@@ -22,7 +24,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className={`bx ${icon}`}></i>
+              <i className={`bx bxl-${icon}`}></i>
             </a>
           ))}
         </div>
